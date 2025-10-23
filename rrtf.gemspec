@@ -27,6 +27,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "byebug"
   # Required for HTML converter functionality
   spec.add_dependency "nokogiri"
-  spec.add_dependency "tidy"
+  spec.add_dependency "tidy_ffi"
   spec.add_dependency "fastimage"
 end
