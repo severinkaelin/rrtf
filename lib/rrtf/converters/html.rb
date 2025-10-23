@@ -39,7 +39,7 @@ module RRTF::Converters
           :char_encoding    => 'utf8'
         }
 
-        tidy = Tidy.new html, defaults.merge(options)
+        tidy = TidyFFI.new html, defaults.merge(options)
         tidy.clean
       end
 
